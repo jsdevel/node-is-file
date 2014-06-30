@@ -1,7 +1,7 @@
 {
   "name": "is-file",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tests if a given path resolves to a file.",
   "author": "Joseph Spencer",
   "scripts": {
