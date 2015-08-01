@@ -53,9 +53,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ``````
 
-[downloads-image]: http://img.shields.io/npm/dm/node-is-file.svg
-[npm-url]: https://npmjs.org/package/node-is-file
-[npm-image]: http://img.shields.io/npm/v/node-is-file.svg
+[downloads-image]: http://img.shields.io/npm/dm/is-file.svg
+[npm-url]: https://npmjs.org/package/is-file
+[npm-image]: http://img.shields.io/npm/v/is-file.svg
 
 [travis-url]: https://travis-ci.org/jsdevel/node-is-file
 [travis-image]: http://img.shields.io/travis/jsdevel/node-is-file.svg
