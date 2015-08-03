@@ -14,5 +14,9 @@ module.exports = function isFile(path, cb){
 module.exports.sync = isFileSync;
 
 function isFileSync(path){
-  return fs.existsSync(path) && fs.statSync(path).isFile();
+  try {
+    return fs.statSync(path).isFile();
+  } catch (e) {
+    return false;
+  }
 }
