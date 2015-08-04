@@ -38,5 +38,9 @@ describe('is-file', function(){
     it('should return true for files', function(){
       sut(__filename).should.be.true;
     });
+
+    it('should send back false when the path does not exist', function(){
+      sut('asdasdf').should.be.false;
+    });
   });
 });
